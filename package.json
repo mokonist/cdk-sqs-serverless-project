@@ -21,7 +21,16 @@
     "typescript": "~3.7.2"
   },
   "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.36.1",
+    "@aws-cdk/aws-iam": "^1.36.1",
+    "@aws-cdk/aws-lambda": "^1.36.1",
+    "@aws-cdk/aws-lambda-event-sources": "^1.36.1",
+    "@aws-cdk/aws-lambda-nodejs": "^1.36.1",
+    "@aws-cdk/aws-sqs": "^1.36.1",
     "@aws-cdk/core": "1.36.1",
+    "@types/aws-lambda": "^8.10.51",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5",
     "source-map-support": "^0.5.16"
   }
 }
