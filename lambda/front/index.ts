@@ -13,8 +13,8 @@ export async function handler(
       statusCode: 200,
       body: JSON.stringify(sendMessage)
     };
-  } catch (e) {
-    console.log(e);
-    return { statusCode: 502, body: JSON.stringify(e) };
+  } catch (error) {
+    console.log(error);
+    return { statusCode: 502, body: JSON.stringify({ message: error }) };
   }
 }
