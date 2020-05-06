@@ -4,6 +4,7 @@
 
 ## Project Tree
 
+```
 .
 ├── README.md
 ├── bin
@@ -23,3 +24,4 @@
 ├── package.json
 ├── cdk.json
 └── tsconfig.json
+```
